@@ -8,6 +8,15 @@ const PreLoader = () => {
   const [fadeText, setFadeText] = useState(false)
   const [fadeScreen, setFadeScreen] = useState(false)
 
+  // Safety fallback: ensure preloader does not get stuck
+  useEffect(() => {
+    const safetyTimer = setTimeout(() => {
+      setCountDone(true)
+    }, 2500)
+
+    return () => clearTimeout(safetyTimer)
+  }, [])
+
   useEffect(() => {
     if (countDone) {
       // Fade teks
@@ -41,7 +50,7 @@ const PreLoader = () => {
           speed={0.5}
         />
         <div
-          className={`absolute text-white text-6xl font-bold transition-all duration-1000 ${
+          className={`absolute text-white text-3xl font-bold transition-all duration-1000 ${
             fadeText ? "opacity-0 -translate-y-10" : "opacity-100 translate-y-0"
           }`}
         >

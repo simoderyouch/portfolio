@@ -109,7 +109,7 @@ function App() {
               handle="edderyouch"
               status="Online"
               contactText="Contact Me"
-              avatarUrl="./assets/mohamededderyouch.png"
+              avatarUrl="/assets/mohamededderyouch.png"
               showUserInfo={true}
               enableTilt={true}
               enableMobileTilt={false}

@@ -22,7 +22,7 @@ Built with React + Vite, this is a showcase of my projects, skills, and work I w
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/mohamededderyouch/portofolio.git
+git clone https://github.com/simoederyouch/portfolio.git
 cd portofolio
 ```
 
@@ -47,15 +47,14 @@ npm run build
 ## 🔗 Quick Preview
 
 If deployed (e.g., GitHub Pages, Netlify, Vercel), you can add the live link here:
-[🔗 See live version](https://mohamededderyouch.github.io/portofolio/)
+[🔗 See live version](https://mohamededderyouch.vercel.app/)
 
 ## About Me
 
 Hi, I’m **Mohamed Ed-Deryouch**.
-I am a **Web Developer & Designer** who loves creating modern, lightweight, and high-performance web applications. Check out my projects below, and feel free to reach out if you have any questions!
+A passionate Software Engineer and AI Engineer dedicated to crafting intelligent, scalable, and high-performance digital solutions that seamlessly blend innovation with exceptional user experience.
 
-* **Email:** [mohamededderyouch@gmail.com](mailto:mohamededderyouch@gmail.com)
+* **Email:** [mohamededderyouch@gmail.com](mailto:mohamededderyouch5@gmail.com)
 * **LinkedIn:** [linkedin.com/in/mohamededderyouch](https://www.linkedin.com/in/mohamededderyouch/)
-* **Behance:** [behance.net/mohamededderyouch](https://www.behance.net/mohamededderyouch)
 
-[1]: https://github.com/mohamededderyouch
+[1]: https://github.com/simoederyouch
