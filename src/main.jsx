@@ -8,7 +8,8 @@ import PreLoader from './components/PreLoader.jsx'
 import "animate.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
+import { Analytics } from "@vercel/analytics/react"
+
 AOS.init();
 
 createRoot(document.getElementById('root')).render(
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')).render(
       <Navbar />
       <App />
       <Footer/>
+      <Analytics />
     </div>
   </StrictMode>,
 )
