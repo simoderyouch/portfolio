@@ -1,141 +1,61 @@
-# Portfolio Website
+# Portfolio Web — Mohamed Ed-Deryouch
 
-A modern, fast, and responsive personal portfolio built with React and Vite. It showcases projects, skills, and tools with smooth animations and a clean UI.
+Welcome to my personal portfolio web! 🌐  
+Built with React + Vite, this is a showcase of my projects, skills, and work I want to share.
 
-## Tech Stack
+## Project Structure
 
-- React 18
-- Vite 5
-- Tailwind CSS 4
-- Three.js + React Three Fiber (with Drei/Rapier)
-- GSAP / Motion
-- Firebase (Auth + Firestore)
-- ESLint 9
+- `public/` — static files (favicon, assets, etc.)  
+- `src/` — main React code (components, utilities, etc.)  
+- `index.html` — entry point of the website  
+- `package.json` & `package-lock.json` — dependency and script management  
+- `vite.config.js` — build and dev server configuration for Vite  
+- `eslint.config.js` — linting rules to keep the code clean and consistent  
 
-## Features
+## Key Features
 
-- Smooth, responsive UI with animations and scroll effects
-- Project showcase with modal details, external links (source, demo, video)
-- Tool/skills section with technology icons
-- Optional Firebase integration (Google Auth, Firestore)
-- Ready-to-deploy setup for GitHub Pages
+- Built with **React + Vite** — lightweight, fast reload, and optimized build performance  
+- **ESLint** configured to maintain clean coding style  
+- Modular structure, ready to expand—can add pages like “About”, “Projects”, etc.
 
-## Requirements
+## How to Run
 
-- Node.js 18 LTS recommended for this setup (Vite 5)
-- npm 9+ (npm 10 works as well)
-
-If you use newer major versions of Vite or some libraries, you may need Node 20+.
-
-## Getting Started
-
-1) Clone the repository
+1. Clone this repository:
 ```bash
-git clone https://github.com/rissss21/portofolio.git
+git clone https://github.com/mohamededderyouch/portofolio.git
 cd portofolio
 ```
 
-2) Install dependencies
+2. Install dependencies:
+
 ```bash
 npm install
 ```
 
-3) Start the dev server
+3. Run the local server with hot reload:
+
 ```bash
 npm run dev
 ```
-Vite will print the local URL (by default: http://localhost:5173/portofolio/).
 
-4) Build for production
+4. Build the production version:
+
 ```bash
 npm run build
 ```
-The production files will be in `dist/`.
 
-5) Preview the production build
-```bash
-npm run preview
-```
+## 🔗 Quick Preview
 
-## Deploy to GitHub Pages
+If deployed (e.g., GitHub Pages, Netlify, Vercel), you can add the live link here:
+[🔗 See live version](https://mohamededderyouch.github.io/portofolio/)
 
-This project is preconfigured to deploy to GitHub Pages.
+## About Me
 
-- `package.json` includes:
-  - `homepage`: `https://rissss21.github.io/portofolio`
-  - `deploy` script: `gh-pages -d dist`
+Hi, I’m **Mohamed Ed-Deryouch**.
+I am a **Web Developer & Designer** who loves creating modern, lightweight, and high-performance web applications. Check out my projects below, and feel free to reach out if you have any questions!
 
-Steps:
-```bash
-npm run build
-npm run deploy
-```
-Your site will be published to GitHub Pages under the `homepage` URL.
+* **Email:** [mohamededderyouch@gmail.com](mailto:mohamededderyouch@gmail.com)
+* **LinkedIn:** [linkedin.com/in/mohamededderyouch](https://www.linkedin.com/in/mohamededderyouch/)
+* **Behance:** [behance.net/mohamededderyouch](https://www.behance.net/mohamededderyouch)
 
-If you change the repository/name, update `homepage` to match:
-```
-https://<your-username>.github.io/<your-repo-name>
-```
-
-## Project Structure
-
-- `public/` — Static assets (images, models, icons)
-- `src/` — Application source code
-  - `components/` — Reusable React components
-    - `ProjectModal/` — Project detail modal with buttons for source/demo/video
-    - `Navbar.jsx` — Sticky navigation with scroll-based visibility
-    - Other UI/animation components (Aurora, ChromaGrid, GlassIcons, etc.)
-  - `data.js` — Images, tools, and project data used in the UI
-  - `firebase.js` — Firebase initialization (Auth + Firestore)
-  - `App.jsx`, `main.jsx` — App bootstrap and routing/layout
-- `index.html` — App entry HTML
-- `vite.config.js` — Vite configuration
-- `eslint.config.js` — ESLint rules
-
-## Environment (Firebase)
-
-The file `src/firebase.js` contains a Firebase example configuration and exports for:
-
-- `auth` (Google login/sign-out helpers)
-- `db` (Firestore instance)
-
-If you do not use Firebase:
-- You can keep the file as-is (not used by default components), or
-- Replace the config with your own Firebase project, or
-- Remove Firebase-related imports and usage where not needed.
-
-## Available Scripts
-
-```json
-{
-  "dev": "vite",
-  "build": "vite build && cp dist/index.html dist/404.html",
-  "preview": "vite preview",
-  "lint": "eslint .",
-  "deploy": "gh-pages -d dist"
-}
-```
-
-- `dev`: Start local development server
-- `build`: Create production build (also copies `index.html` to `404.html` for GitHub Pages SPA fallback)
-- `preview`: Preview the production build locally
-- `lint`: Run ESLint
-- `deploy`: Publish `dist/` to GitHub Pages
-
-## Notes
-
-- If you update major versions of React/Vite/Three, review compatibility between:
-  - `react`, `react-dom`
-  - `@react-three/fiber`, `@react-three/drei`, `three`
-  - `vite` and your Node.js version
-- Images and 3D assets live under `public/assets/`. Update paths in `src/data.js` as needed.
-
-## Author
-
-- GitHub: `rissss21`
-- Email: email_farisedrik21@gmail.com
-- LinkedIn: https://www.linkedin.com/in/farisedp/
-
----
-
-If you find this useful, feel free to star the repo or reach out for collaboration!
+[1]: https://github.com/mohamededderyouch
