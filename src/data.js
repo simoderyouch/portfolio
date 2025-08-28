@@ -148,9 +148,11 @@ export const listTools = [
 import project1 from "/assets/proyek/project1.png";
 import project2 from "/assets/proyek/project2.png";
 import project3 from "/assets/proyek/project3.png";
-
+import project4 from "/assets/proyek/project4.png";
 
 export const listProyek = [
+
+
   {
     id: 1,
     image: project1,
@@ -165,6 +167,17 @@ export const listProyek = [
   },
   {
     id: 2,
+    image: project4,
+    title: "N8N Sentiment Analysis Workflow",
+    subtitle: "An automated sentiment analysis workflow deployed on Oracle Cloud.",
+    fullDescription: "This project demonstrates a fully automated sentiment analysis workflow running on an Oracle Always Free instance using n8n. The workflow collects user feedback, analyzes sentiment in real-time, and triggers notifications or actions based on results. It highlights seamless integration of cloud infrastructure, automation tools, and data-driven insights to improve monitoring and decision-making.",
+    borderColor: "#10B981",
+    gradient: "linear-gradient(145deg, #10B981, #000)",
+    video: "https://youtu.be/CHhI89aXpq0",
+    dad: "150",
+},
+  {
+    id: 3,
     image: project2, 
     title: "Invoice Management System",
     subtitle: "A full-stack app for creating, managing, and tracking invoices with email and payment proof features.",
@@ -179,7 +192,7 @@ export const listProyek = [
   },
    
   {
-    id: 3,
+    id: 4,
     image: project3, 
     title: "Agence Créative & Digitale",
     subtitle: "Un site vitrine professionnel présentant nos services créatifs et solutions digitales.",
